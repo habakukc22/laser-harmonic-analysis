@@ -524,7 +524,7 @@ def plot_thd(particles, num_harmonics, particles_off = [], freqs_off = [], laser
                         calculate_thd(time, signal, 
                                       fundamental_freq=step["freq"], 
                                       num_harmonics=num_harmonics),
-                        color="purple",
+                        color="gray",
                         label= "exc" if put_label else None
             )
 
